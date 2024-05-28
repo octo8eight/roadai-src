@@ -1,0 +1,108 @@
+.mainContainer {
+    margin: auto;
+}
+
+.MainPage {
+    display: flex;
+    align-items: center; 
+    height: 100vh;
+}
+
+.mainText {
+    margin: auto;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    text-shadow: 0px 0px 87px rgba(255, 255, 255, 1);
+}
+.openaikey {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.openaikey_input {
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #393A40;
+    border-radius: 30px;
+    transition: padding 0.25s;
+    outline: none;
+    box-shadow: 0px 0px 112px rgba(255, 255, 255, 1);
+}
+
+.openaikey_input:hover {
+    padding: 15px 23px;
+    transition: all 0.25s;
+}
+
+.openaikey_input:focus {
+    border-color: #405EB2;
+    padding: 15px 23px;
+}
+
+.prompt_input {
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #393A40;
+    border-radius: 30px;
+    transition: padding 0.25s;
+    outline: none;
+    box-shadow: 0px 0px 112px rgba(255, 255, 255, 1);
+}
+
+.prompt_input:hover {
+    padding: 15px 23px;
+    transition: all 0.25s;
+}
+
+.prompt_input:focus {
+    border-color: #405EB2;
+    padding: 15px 23px;
+}
+
+.submitButton {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.submitButton_button {
+  background-color: #3D63DD;
+  border-radius: 30px;
+  border-width: 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submitButton_button:hover {
+    padding: 12px 14px;
+    background-color: #3455c2;
+    transition: all 200ms;
+}
+
+.submitButton_button:active {
+    background-color: #253d8b;
+    transition: all 200ms;
+}
+
+.responseText {
+    color: white;
+}

@@ -1,0 +1,15 @@
+body {
+  font-family: "Inter",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #111113;
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: radial-gradient(circle, #19191B 2px, #111113 2px);
+  background-size: 3em 3em;
+  background-position: center center;
+}

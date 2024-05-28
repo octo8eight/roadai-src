@@ -1,0 +1,83 @@
+*{
+    color: white;
+}
+
+    .RoadMap{
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+.MapPoint {
+    background: #93B4FF;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 30px;
+    border: #687fb6 solid 3px;
+    margin: auto;
+    margin-bottom: 75px;
+    transition: all 200ms;
+}
+.MapPointChild {
+    background: #93B4FF;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 30px;
+    border: #687fb6 solid 3px;
+    margin: auto;
+    margin-bottom: 75px;
+    transition: all 200ms;
+}
+
+.MapPoint:hover {
+    background-color: #7690cc;
+    border-color: #4b5c83;
+    transition: all 200ms;
+}
+
+.Sidebar.active {
+    right: 0;
+    transition: 500ms;
+}
+
+.Sidebar {
+    right: -100%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    background-color: #111725;
+    transition: 800ms;
+}
+
+.closeButton {
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background-color: #3F5CB0;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 10px;
+    transition: all 200ms;
+    
+}
+
+.closeButton:hover{
+    background-color: rgb(37, 61, 139);
+    transition: all 200ms;
+}
+
+#closeImg {
+    fill: white;   
+    margin: auto;
+}
+
+
+.pointContent {
+    width: fit-content;
+    margin-left: 10px;
+    overflow: auto;
+}
